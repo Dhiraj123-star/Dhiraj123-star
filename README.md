@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Hi, I'm Dhiraj
 
-<!--
-**Dhiraj123-star/Dhiraj123-star** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a **Backend Engineer** focused on building reliable, scalable, and production-grade systems.  
+I work extensively with **Python**, modern backend frameworks, **DevOps tooling**, and **cloud-native architectures**.
 
-Here are some ideas to get you started:
+## 🚀 Core Skills
+- **Backend:** Python, FastAPI, Django, Flask  
+- **DevOps:** Docker, Kubernetes, Terraform, Ansible  
+- **Cloud & CI/CD:** AWS, GitHub Actions, Jenkins  
+- **Event-Driven:** Kafka, RabbitMQ, Celery  
+- **AI Engineering:** LangChain, LangGraph, RAG, Vector Stores  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💼 What I Do
+- Design and develop scalable backend architectures  
+- Build microservices with clean, maintainable code  
+- Implement CI/CD pipelines and containerized deployments  
+- Create event-driven and real-time systems  
+- Integrate AI/ML workflows into production applications  
+
+## 🎯 Current Focus
+Enhancing my expertise in **system design**, **distributed systems**,  
+and technical leadership—growing toward a **Tech Lead** role.
+
