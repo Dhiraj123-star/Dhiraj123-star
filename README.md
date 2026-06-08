@@ -12,13 +12,13 @@ I build **production-grade AI-powered backend systems** — from LLM pipelines a
 
 | What | How | Impact |
 |---|---|---|
-| 50K+ domain batch processing | Celery + SQS FIFO + PgBouncer | Zero data loss across crashes & deployments |
+| Large-scale record batch processing | Celery + SQS FIFO + PgBouncer | Zero data loss across crashes & deployments |
 | LLM pipeline migration | OpenAI Assistants API → Responses API | Zero downtime, cut latency + Redis dependency |
-| Hybrid RAG search engine | DuckDB + Qdrant + Cohere Reranker | Powers cultural relevance scoring (CRS™) in production |
-| 6 SSP/DSP reporting integrations | Index Exchange, PubMatic, Media.Net, Equativ, OpenX, Magnite | Nightly ingestion, unified dashboard |
-| MCP protocol middleware | AI Platform ↔ Hexagon DSP | Autonomous campaign creation via natural language |
-| Video AI pipeline | AllTold + SQS FIFO + Celery + GPT-4 | Parallel CRS + Persona + Blueprint generation |
-| AWS RDS cost optimisation | Graviton3 (db.m7g.large) upgrade | ~20% cost saving, handles 50K+ write bursts |
+| Hybrid RAG search engine | DuckDB + Qdrant + Cohere Reranker | Powers AI intelligence scoring in production |
+| Multi-platform reporting integrations | Auto-renewing auth + Celery Beat + unified dashboard | Nightly ingestion across 6 external data platforms |
+| AI agent middleware (MCP protocol) | Natural language → structured API execution | Autonomous workflow creation via AI agents |
+| AI video analysis pipeline | Third-party Video API + SQS FIFO + Celery + GPT-4 | Parallel AI report generation (persona, insights, blueprint) |
+| AWS RDS instance optimisation | Architecture-matched instance upgrade (ARM-based) | ~20% cost reduction, handles high-burst write workloads |
 
 ---
 
@@ -85,11 +85,11 @@ Data Tools      Scrapy · Pandas · BeautifulSoup · Selenium · ETL Pipelines
 
 **4.5 years** building backend systems across AI SaaS, ERP, and data engineering:
 
-- Architected and shipped AI-powered SaaS platforms — LLM pipelines, reporting dashboards, SSP/DSP integrations, and MCP campaign automation — primarily as the **sole engineer** across multi-phase, long-running projects
-- Built batch processing systems handling **50K+ records** with zero data loss using layered reliability: queue guarantees (SQS FIFO) + task acknowledgement (Celery acks_late) + connection pooling (PgBouncer)
-- Delivered **hybrid RAG search** combining DuckDB keyword search + Qdrant semantic search + Cohere reranking — powering a Cultural Relevance Score (CRS™) platform launched April 2026 with advisory board from Google, WPP Media, PubMatic, and OpenX
-- Integrated **6 SSP reporting APIs** with auto-renewing auth, nightly Celery ingestion, and unified analytics dashboard — handling daily data from Index Exchange, PubMatic, Media.Net, Equativ, OpenX, and Magnite
-- **Migrated OpenAI Assistants API → Responses API** in production with zero downtime — refactored thread/run lifecycle to stateless Prompt ID persistence
+- Architected and shipped AI-powered SaaS platforms — LLM pipelines, multi-platform reporting dashboards, third-party API integrations, and AI agent automation middleware — primarily as the **sole engineer** across multi-phase, long-running projects
+- Built large-scale record batch processing systems with zero data loss using layered reliability: queue guarantees (SQS FIFO) + task acknowledgement (Celery `acks_late`) + connection pooling (PgBouncer)
+- Delivered **hybrid RAG search** combining DuckDB keyword search + Qdrant semantic search + Cohere reranking — powering an AI intelligence scoring platform currently live in production
+- Integrated **multiple third-party reporting APIs** with auto-renewing auth tokens, nightly Celery Beat ingestion, and a unified analytics dashboard — abstracting 6 external data platforms behind a single interface
+- **Migrated OpenAI Assistants API → Responses API** in production with zero downtime — refactored stateful thread/run lifecycle to stateless Prompt ID persistence, reducing latency and Redis dependency
 - Engineered **Odoo/OpenERP** backend systems (PostgreSQL, stored procedures, triggers) for service, manufacturing, and engineering-domain enterprise clients
 
 ---
